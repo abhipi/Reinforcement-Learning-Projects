@@ -1,4 +1,29 @@
-# Reinforcement-Learning-Projects <br>
->1.Atari (KungFu-v0)- DQN model <br>
->2.Smart-Taxi- Q-Learning <br>
->3.SonicTheHedgehog- PPO algorithm (Proximal Policy Optimization)
+# Reinforcement Learning (RL) and Deep RL Projects <br>
+* Atari (KungFu-v0): Deep Q-Learning model
+* Smart-Taxi: Q-Learning
+* SonicTheHedgehog: PPO (Proximal Policy Optimization) algorithm with the Actor Advantage Critic (A2C) model
+
+This repository contains three main projects that focus on implementing various RL algorithms for different environments and games (TensorFlow, OpenAI Gym).
+1. Atari (KungFu-v0) <br>
+  The Atari section of the repository focuses on implementing the Deep Q-Network (DQN) algorithm for the "KungFu-v0" Atari game. The main code file for this section is DQNAtariKungFuv0.py. The steps involved in this section are as follows:
+    * Pre-process the game frames.
+    * Define the network architecture.
+    * Train the agent using the DQN algorithm.
+    * Implement utility functions for memory replay, epsilon-greedy action selection, and frame stacking.
+    * Save the trained model in the saved_models directory.
+2. Smart-Taxi <br>
+  The Smart-Taxi section implements the Q-Learning algorithm for a Smart-Taxi environment. The main code file for this section is SmartTaxi.py. The steps involved in this section are as follows:
+    * Import the necessary libraries and create an instance of the Smart-Taxi environment.
+    * Initialize the Q-table with zeros to store the Q-values.
+    * Define the epsilon-greedy policy function for action selection.
+    * Implement the main training loop: interact with the environment, update Q-values based on the Q-Learning algorithm, and repeat for a specified number of episodes.
+    * Include a testing loop to navigate the Smart-Taxi environment using the learned Q-values.
+    * Evaluate the agent's performance over a specified number of test episodes and print the average score.
+3. Sonic the Hedgehog-PPO <br>
+  The Sonic the Hedgehog-PPO section focuses on training an agent to play the game "Sonic the Hedgehog" using the Proximal Policy Optimization (PPO) algorithm. The main code file for this section is run.py. The steps involved in this section are as follows:
+    * Implement the Advantage Actor-Critic (A2C) architecture.
+    * Train the agent using the PPO algorithm.
+    * Play the game in the OpenAI Gym environment.
+    * Provide utility functions for the project, such as loading model checkpoints and saving the trained model.
+
+Please refer to the respective sections for more details on each algorithm's implementation and usage.
