@@ -28,4 +28,5 @@ This repository contains three main projects that focus on implementing various 
     * Play the game in the OpenAI Gym environment.
     * Provide utility functions for the project, such as loading model checkpoints and saving the trained model.<br>
 <img width="400" height="400" src="https://github.com/abhipi/Reinforcement-Learning-Projects/assets/75244191/d09c3145-3cb3-46b9-a80e-d2a4bd9a81c5"><br>
+<!-- end of the list -->
 Please refer to the respective sections for more details on each algorithm's implementation and usage.
